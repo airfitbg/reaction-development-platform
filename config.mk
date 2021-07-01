@@ -27,11 +27,8 @@ endef
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
 define SUBPROJECT_REPOS
-https://github.com/reactioncommerce/reaction-hydra.git,reaction-hydra,v3.0.0 \
-https://github.com/reactioncommerce/reaction.git,reaction,v3.11.1 \
-https://github.com/reactioncommerce/reaction-admin.git,reaction-admin,v3.0.0-beta.13 \
-https://github.com/reactioncommerce/reaction-identity.git,reaction-identity,v3.3.0 \
-https://github.com/reactioncommerce/example-storefront.git,example-storefront,v4.0.2
+https://github.com/airfit/reaction.git,reaction,v3.13.0-airfit \
+https://github.com/airfit/reaction-admin.git,reaction-admin,v3.0.0-new-auth
 endef
 
 # These are all the plugins that `make clone-api-plugins` will clone.
@@ -39,10 +36,10 @@ endef
 # same place.
 define API_PLUGIN_REPOS
 https://github.com/reactioncommerce/api-core.git \
-https://github.com/reactioncommerce/api-plugin-accounts.git \
+https://github.com/airfitbg/api-plugin-accounts.git \
 https://github.com/reactioncommerce/api-plugin-address-validation-test.git \
 https://github.com/reactioncommerce/api-plugin-address-validation.git \
-https://github.com/reactioncommerce/api-plugin-authentication.git \
+https://github.com/airfitbg/api-plugin-authentication.git \
 https://github.com/reactioncommerce/api-plugin-authorization-simple.git \
 https://github.com/reactioncommerce/api-plugin-carts.git \
 https://github.com/reactioncommerce/api-plugin-catalogs.git \
@@ -51,7 +48,7 @@ https://github.com/reactioncommerce/api-plugin-discounts.git \
 https://github.com/reactioncommerce/api-plugin-email-smtp.git \
 https://github.com/reactioncommerce/api-plugin-email-templates.git \
 https://github.com/reactioncommerce/api-plugin-email.git \
-https://github.com/reactioncommerce/api-plugin-files.git \
+https://github.com/airfitbg/api-plugin-files.git \
 https://github.com/reactioncommerce/api-plugin-i18n.git \
 https://github.com/reactioncommerce/api-plugin-inventory-simple.git \
 https://github.com/reactioncommerce/api-plugin-inventory.git \
