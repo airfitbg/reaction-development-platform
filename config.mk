@@ -39,7 +39,7 @@ https://github.com/reactioncommerce/api-core.git \
 https://github.com/airfitbg/api-plugin-accounts.git \
 https://github.com/reactioncommerce/api-plugin-address-validation-test.git \
 https://github.com/reactioncommerce/api-plugin-address-validation.git \
-https://github.com/reactioncommerce/api-plugin-authentication.git \
+https://github.com/airfitbg/api-plugin-authentication.git \
 https://github.com/reactioncommerce/api-plugin-authorization-simple.git \
 https://github.com/reactioncommerce/api-plugin-carts.git \
 https://github.com/reactioncommerce/api-plugin-catalogs.git \
@@ -48,7 +48,7 @@ https://github.com/reactioncommerce/api-plugin-discounts.git \
 https://github.com/reactioncommerce/api-plugin-email-smtp.git \
 https://github.com/reactioncommerce/api-plugin-email-templates.git \
 https://github.com/reactioncommerce/api-plugin-email.git \
-https://github.com/reactioncommerce/api-plugin-files.git \
+https://github.com/airfitbg/api-plugin-files.git \
 https://github.com/reactioncommerce/api-plugin-i18n.git \
 https://github.com/reactioncommerce/api-plugin-inventory-simple.git \
 https://github.com/reactioncommerce/api-plugin-inventory.git \
