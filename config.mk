@@ -27,7 +27,7 @@ endef
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
 define SUBPROJECT_REPOS
-https://github.com/airfitbg/reaction.git,reaction,v3.13.0-airfit \
+https://github.com/airfitbg/reaction.git,reaction,v3.13.2 \
 https://github.com/airfitbg/reaction-admin.git,reaction-admin,v3.0.0-new-auth
 endef
 
