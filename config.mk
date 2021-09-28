@@ -27,8 +27,8 @@ endef
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
 define SUBPROJECT_REPOS
-https://github.com/airfitbg/reaction.git,reaction,v3.13.2 \
-https://github.com/airfitbg/reaction-admin.git,reaction-admin,v3.0.0-new-auth
+https://github.com/airfitbg/reaction.git,reaction,v4.0.3-airfit \
+https://github.com/reactioncommerce/reaction-admin.git,reaction-admin,v4.0.0-beta.7
 endef
 
 # These are all the plugins that `make clone-api-plugins` will clone.
@@ -36,12 +36,12 @@ endef
 # same place.
 define API_PLUGIN_REPOS
 https://github.com/reactioncommerce/api-core.git \
-https://github.com/airfitbg/api-plugin-accounts.git \
+https://github.com/reactioncommerce/api-plugin-accounts.git \
 https://github.com/reactioncommerce/api-plugin-address-validation-test.git \
 https://github.com/reactioncommerce/api-plugin-address-validation.git \
 https://github.com/reactioncommerce/api-plugin-authentication.git \
 https://github.com/reactioncommerce/api-plugin-authorization-simple.git \
-https://github.com/reactioncommerce/api-plugin-carts.git \
+https://github.com/airfitbg/api-plugin-carts.git \
 https://github.com/reactioncommerce/api-plugin-catalogs.git \
 https://github.com/reactioncommerce/api-plugin-discounts-codes.git \
 https://github.com/reactioncommerce/api-plugin-discounts.git \
